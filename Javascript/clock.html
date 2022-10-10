@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+        <script src="calc.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="espaco">
+                <div class="headItems">
+                    <div class="logo"><img src="logo.png" style="width: 30px;" alt=""></div>
+                    <div class="item" onclick="location.href='index.html'">Calculadora</div>
+                    <div class="item">Relógio</div>
+                    <div class="modo">
+                        <label class="switch">
+                            <input id="mode" type="checkbox" class="check" onclick="toggleMode()">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="clock">
+            <div class="relogio">
+                <div class="circulo"></div>
+                <div id='hora' class="ponteiroH hand"></div>
+                <div id='minutos' class="ponteiroM hand"></div>
+                <div id='segundos' class="ponteiroS hand"></div>
+            </div>
+            <div id="relogio"></div>
+        </div>
+    </body>
+</html>

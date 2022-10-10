@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header class="header">
+        <div class="espaco">
+            <div class="headItems">
+                <div class="logo"><img src="logo.png" style="width: 30px;" alt=""></div>
+                <div class="item">Calculadora</div>
+                <div class="item" onclick="location.href='clock.html'">Relógio</div>
+                <div class="modo">
+                    <label class="switch">
+                        <input id="mode" type="checkbox" class="check" onclick="toggleMode()">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div id="display"></div>
+        <div class="buttons">
+            <div class="button volta1">CE</div>
+            <div class="button volta1">/</div>
+            <div class="button volta1">*</div>
+            <div class="button volta">&larr;</div>
+            <div class="b button">7</div>
+            <div class="b button">8</div>
+            <div class="b button">9</div>
+            <div class="button volta">-</div>
+            <div class="b button">4</div>
+            <div class="b button">5</div>
+            <div class="b button">6</div>
+            <div class="button volta">+</div>
+            <div class="b button">1</div>
+            <div class="b button">2</div>
+            <div class="b button">3</div>
+            <div class="button volta">(</div>
+            <div class="b button">0</div>
+            <div class="b button">)</div>
+            <div class="b button">.</div>
+            <div id="igual" class="button">=</div>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>

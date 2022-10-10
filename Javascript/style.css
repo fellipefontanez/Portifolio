@@ -1,0 +1,24 @@
+.botao{
+    padding: 10px 12px;
+    margin: 5px;
+    text-align: center;
+    text-anchor: middle;
+}
+.corpoCalc{
+    border-style: solid;
+    position: absolute;
+    top: 11px;
+    left: 15px;
+}
+.texto{
+    padding: 8px;
+    width: max-content;
+    margin: 2px;
+    text-align: right;
+}
+.ponto{
+    padding: 11px 14px;
+}
+.CE{
+    padding: 10px 11px;
+}
